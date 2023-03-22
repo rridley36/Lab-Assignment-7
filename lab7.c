@@ -12,7 +12,7 @@ void bubbleSort(int *a) // Performs bubble sort
                 int temp = a[j];
                 a[j] = a[j+1];
                 a[j+1] = temp;
-                swaps[j]++;
+                swaps[i]++;
             }
         }
     }
